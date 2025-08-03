@@ -111,7 +111,9 @@ export const FeatureFlagsToolbar = ({
                 >
                   <span
                     className={`inline-block h-2.5 w-2.5 sm:h-3 sm:w-3 transform bg-white transition-transform ${
-                      isEnabled ? 'translate-x-4 sm:translate-x-5' : 'translate-x-1'
+                      isEnabled
+                        ? 'translate-x-4 sm:translate-x-5'
+                        : 'translate-x-1'
                     }`}
                   />
                 </button>

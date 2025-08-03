@@ -115,7 +115,9 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 lg:mb-6 tracking-wide">CUSTOMER CARE</h4>
+            <h4 className="font-semibold mb-4 lg:mb-6 tracking-wide">
+              CUSTOMER CARE
+            </h4>
             <ul className="space-y-3 lg:space-y-4 text-sm">
               {[
                 'Contact Us',
@@ -141,7 +143,9 @@ export const Footer = () => {
           </div>
 
           <div>
-            <h4 className="font-semibold mb-4 lg:mb-6 tracking-wide">CONNECT</h4>
+            <h4 className="font-semibold mb-4 lg:mb-6 tracking-wide">
+              CONNECT
+            </h4>
             <div className="space-y-3 lg:space-y-4 text-sm">
               <div className="flex items-start gap-3 text-gray-400">
                 <MapPin

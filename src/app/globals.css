@@ -36,7 +36,8 @@ body {
 
 /* Ensure proper touch targets on mobile */
 @media (max-width: 640px) {
-  button, a {
+  button,
+  a {
     min-height: 44px;
     min-width: 44px;
   }
