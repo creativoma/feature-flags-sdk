@@ -1,36 +1,53 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Feature Flags SDK - Summer Collection Demo
 
-## Getting Started
+A responsive e-commerce demo showcasing **Vercel's Feature Flags SDK** implementation with Next.js 15. This project serves as a testing ground for the `flags` library, demonstrating real-world feature flag usage in a modern web application.
 
-First, run the development server:
+## 🎯 Highlights
+
+- 🚀 **Vercel Feature Flags SDK** - Real-time feature toggling without deployments
+- 📱 **Fully Responsive** - Mobile-first design with adaptive layouts
+- ⚡ **Next.js 15** - Latest framework with App Router and Turbopack
+- 🎨 **Modern UI/UX** - Clean design with smooth animations
+- 🔄 **Real-time Updates** - Feature flags change UI instantly
+- 🛠️ **Developer Experience** - Built-in toolbar for testing flags
+
+## 🚩 Feature Flags in Action
+
+- `summer-hero-2025` - Hero section variants (Summer vs Default)
+- `summer-discount-banner` - Promotional discount banners
+- `premium-summer-promo` - Premium membership offers
+- `countdown-timer` - Limited-time countdown displays
+
+## 🛠️ Tech Stack
+
+- **Next.js 15** with App Router & Turbopack
+- **Vercel Flags SDK** for feature management
+- **Tailwind CSS v4** for responsive styling
+- **TypeScript** for type safety
+- **Lucide React** for icons
+
+## 🚀 Quick Start
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
+# Install dependencies
+pnpm install
+
+# Start development server
 pnpm dev
-# or
-bun dev
+
+# Open http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📱 Responsive Design
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- Mobile: < 640px
+- Tablet: 640px - 1024px
+- Desktop: > 1024px
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎮 Testing Features
 
-## Learn More
+Use the **Feature Flags Toolbar** (bottom-right) to toggle flags in real-time and see instant UI changes without page reloads.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+_Built for testing and demonstrating Vercel's Feature Flags SDK capabilities._
